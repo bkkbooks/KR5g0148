@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5g0148/HFL/v1
+canonical_location: https://kanripo.org/bkk/KR5g0148/HFL/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 洞真八景玉籙晨圖隱符
+  date: '2015-08-29 02:58:36.354723'
+  source:
+    repository: kanripo
+    path: KR5g0148
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+  edition:
+    short: HFL
+    label: 【正統道藏・涵芬樓版】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5g0148_000-HFL.yaml, hash: 'sha256:73df7a695c84b5fdfb8e0131f1a8b1b61cdf78006a32eaf2128dd63bf315ed2b'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5g0148_000-HFL.markers.yaml, hash: 'sha256:1f95b051bc4009be8fbe3b83eebbb8f4a3c1a9b34db5d44e20a07748b081cc93'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5g0148_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 1213
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:36acc5a8816ffde254ee5c9a8dea62ecb033ec9b4e302936e6231962a5fb9d4c
